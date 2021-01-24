@@ -1,3 +1,1 @@
-# testenextvercel
-# nextvercel
-# testvercelnext
+# testando next.js + vercel
