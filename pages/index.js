@@ -42,8 +42,14 @@ function Home() {
 				<div class="col-md-3">
 				</div>
 				<div class="col-md-3">
-           <form id="form_pagamento" name="form_pagamento" method="post" target="blank" action="https://tc.intermediador.yapay.com.br/payment/transaction"> <input type="hidden" name="token_account" id="token_account" value="01ac6fd0d1d84b1"> <input type="hidden" name="transaction_product[][description]" id="product_description" value="Serviço"> <input type="hidden" name="transaction_product[][quantity]" id="product_quantity" value="1"> <input type="hidden" name="transaction_product[][price_unit]" id="product_price" value="6.00"> <input type="hidden" name="transaction_product[][extra]" id="product_extra" value=""> <input type="image" src="https://intermediador.dev.yapay.com.br/images/btncomprar.png" value="Comprar" alt="Comprar" border="0">
-        </form>
+                    <form id="form_pagamento" name="form_pagamento" method="post" target="blank" action="https://tc.intermediador.yapay.com.br/payment/transaction">
+						 <input type="hidden" name="token_account" id="token_account" value="01ac6fd0d1d84b1"> </input>
+					     <input type="hidden" name="transaction_product[][description]" id="product_description" value="Serviço"> </input>
+						 <input type="hidden" name="transaction_product[][quantity]" id="product_quantity" value="1"> </input>
+					     <input type="hidden" name="transaction_product[][price_unit]" id="product_price" value="6.00"> </input>
+						 <input type="hidden" name="transaction_product[][extra]" id="product_extra" value=""> </input>
+						 <input type="image" src="https://intermediador.dev.yapay.com.br/images/btncomprar.png" value="Comprar" alt="Comprar" border="0"> </input>
+                    </form>
 				</div>
 			</div>
 		</div>
