@@ -1,8 +1,9 @@
 function Home() {
-  return <form action="/api/db" method="post">
-      <input type="email" name="email"></input>
-      <input type="submit" value="Submit"></input>
-    </form>
+  return <body>
+    <div>
+      <h1>Teste</h1>
+    </div>
+  </body>
 }
 
 export default Home;
